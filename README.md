@@ -58,7 +58,7 @@ A preregistration for the experiment presented in the paper is available on the 
   - `trials.csv` contains the participants' response data (i.e. responsibilty judgments).
   - `participants.csv` contains demographic information and post-experiment
     feedback/comments from participants.
-- `docs` hosts the code for the experiment's version that is currently available online. You can preview the experiment at [https://cicl-stanford.github.io/counterfactual_sequential/experiment1/](https://cicl-stanford.github.io/counterfactual_sequential/experiment1/)
+- `docs` hosts the code for the experiment's version that is currently available online. You can preview the experiment at [https://cicl-stanford.github.io/counterfactual_sequential/experiment1/](https://cicl-stanford.github.io/responsibility_sequential/experiment1/)
 - `figures` contains all the figures presented in the paper.
 
 ## CRediT author statement
