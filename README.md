@@ -1,7 +1,7 @@
 # Towards a computational model of responsibility judgments in sequential human-AI collaboration
 
 This repository contains the experiments, data, simulation code, analysis code, and figures for the paper
-"[Towards a computational model of responsibility judgments in sequential human-AI collaboration]()"
+"[Towards a computational model of responsibility judgments in sequential human-AI collaboration](https://osf.io/preprints/psyarxiv/m4yad)"
 by Stratis Tsirtsis, Manuel Gomez-Rodriguez and Tobias Gerstenberg (_CogSci 2024_).
 
 __Contents__:
