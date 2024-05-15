@@ -1,0 +1,27 @@
+ Family: gaussian 
+  Links: mu = identity; sigma = identity 
+Formula: diff ~ 1 + (1 | workerid) + (1 | trial) 
+   Data: data_odd (Number of observations: 400) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Multilevel Hyperparameters:
+~trial (Number of levels: 8) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     8.77      3.16     4.07    16.40 1.00     3720     5311
+
+~workerid (Number of levels: 50) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)    10.29      2.21     5.97    14.61 1.00     3171     3924
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept     6.48      3.64    -0.75    13.78 1.00     4103     3977
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma    28.87      1.13    26.72    31.18 1.00     8693     5921
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
